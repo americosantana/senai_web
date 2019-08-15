@@ -9,3 +9,7 @@ console.log(typeof teste)
 
 
 console.log(typeof teste)
+
+console.log(nexiste)
+
+let nexiste = "agora existo"
