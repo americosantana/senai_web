@@ -1,0 +1,13 @@
+Comandos GiT
+
+cd -->para trafegar entre os diretórios
+mkdir --> urilizado para criar diretórios
+ls --> usado para listar conteúdio de um diretório
+ls -a --> exibir arquivos ocultus
+touch -->utilizado para criação de arquivos
+pwd --> exibe caminho do diretório atual
+cd.. -->retorna ao diretorio anterior
+rm -R diretório --> apaga completamente o diretório e todos os subconteúdos
+git status --> exibe o status do sistema versionado
+
+git add nome do arquivo -->

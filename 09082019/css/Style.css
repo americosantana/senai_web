@@ -1,0 +1,22 @@
+body { 
+	font-family: Arial, MS Sans Serif; 
+	background: url(../img/gr1.jpg) repeat
+	}
+
+h1	{ 
+	background: url(../img/gr3.jpg); 
+	color: white;
+	padding: 10px
+	}
+p{ 
+	font-weight: bold;
+	 padding-left: 5px
+	}
+
+p.topics{ 
+	color: #800517 
+}
+li{
+	list-style-image: url(b.jpg);
+	 margin-top: 1em
+	}
