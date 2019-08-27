@@ -1,0 +1,13 @@
+ATIVIDADE - JOGO DA MEMÓRIA DAS CORES
+
+Desenvolva, utilizando HTML + JAVASCRIPT + CSS, um jogo da memória onde o jogador seja desafiado 
+a encontrar 2 objetos com a mesma cor e a cada par de objetos encontrados o jogador 
+recebe 10 pontos no placar final. A cada erro o jogador perde 1 ponto. O jogo inicia com 10 pontos. 
+O jogo começará com todos os objetos da cor preta, e a cada click a cor do objeto é revelada. Caso 
+o jogador não acerte, ambos os objetos devem voltar a ser pretos.
+
+Quanto todas os objetos forem encontrados, deve aparecer um texto: FIM DE JOGO! PARABÉNS PELA VITÓRIA.
+
+
+Você pode acrescentar elementos às orientações acima... por exemplo: contador, botão de start, botão de 
+restart... enfim, use sua criatividade para inovar.

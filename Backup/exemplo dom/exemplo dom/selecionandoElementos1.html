@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Selecionar Elementos #01</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="conteudo exercicio">
+
+    <div id="primeiro" onclick="alterna1()">primeiro</div>
+
+    <div id='segundo' onclick="alterna2()">Segundo</div>
+    
+    <div id="terceiro ultimo" onclick="alterna3()">.terceiro .ultimo</div>
+ <button id="bt_um" onclick="exemplo1()">
+     Destacar
+ </button>
+    
+    <script>
+        function exemplo1 (){
+        const lista_dois = [...document.getElementsByTagName('div')]
+        const bt = document.getElementById('bt_um')
+            if(bt.innerText == "Destacar"){
+                    lista_dois.forEach(e => e.classList.add('destaque'))
+                        bt.innerText = "Remover Destaque"
+            }else{
+                lista_dois.forEach(e => e.classList.remove('destaque'))
+                    bt.innerText = "Destacar"
+            }
+        }
+
+        function alterna1(){
+            //toggle alterna as funções, so funciona com ById
+            document.getElementById('primeiro').classList.toggle('destaque')
+        }
+
+        function alterna2(){
+            //toggle alterna as funções, so funciona com ById
+            document.getElementById('segundo').classList.toggle('destaque')
+        }
+
+        function alterna3(){
+            //toggle alterna as funções, so funciona com ById
+            document.getElementById('terceiro ultimo').classList.toggle('destaque')
+        }
+        
+        /*
+            const alnerta1 = () => document.getElementById('primeiro').classList.toggle('destaque')
+            const alnerta2 = () => document.getElementById('segundo').classList.toggle('destaque')
+            const alnerta3 = () => document.getElementById('terceiro ultimo').classList.toggle('destaque')
+            */
+
+    /*
+    function exemplo1 (){
+        const lista_dois = [...document.getElementsByTagName('div')]
+        lista_dois.forEach(e => e.classList.add('destaque'))
+    }
+    function exemplo2 (){
+        const lista_dois = [...document.getElementsByTagName('div')]
+        lista_dois.forEach(e => e.classList.remove('destaque'))
+    }
+*/
+    </script>
+
+</body>
+</html>
