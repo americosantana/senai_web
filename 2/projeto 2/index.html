@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>semantic markup</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<!--cabeçalho da página-->
+	<header id="cabecalho">
+		<h1>NOME DO SITE</h1>
+	</header>
+
+	<!--menu-->
+	<nav id="menu_superior">
+		<!--lista do menu-->
+			<a href="/">Página Inicial</a>
+			<a href="/servicos">Serviços</a>
+			<a href="/sobre">Sobre</a>
+
+	</nav>
+
+	<!--seção para especificação de título da matéria-->
+	<section id="titulos">
+		<h1>Título de matéria</h1>
+		<p>texto introdutório</p>
+	</section>
+
+	<div id="row">
+
+		<div class="coluna esq">
+	<main>
+
+		<!--primeiro conteudo-->
+		<article id="conteudo1">
+			<h1>Título do primeiro texto</h1>
+			<p>paragrafo do primeiro texto</p>
+		</article>
+
+		<!--segundo conteudo-->
+		<article id="conteudo2">
+			<h1>Título do segundo texto</h1>
+			<p>paragrafo do segundo texto</p>
+		</article>
+	</main>		
+
+		</div>
+
+		<div class="coluna dir">
+	
+	<aside id="conteudo_secundario">
+
+		<!--menu lateral-->
+		<nav id="menu_lateral">
+			<p>Menu de navegação lateral</p>
+
+		</nav>
+
+		<!--seção para propaganda-->
+		<article id="divugacao">
+			
+			<p> seção para propaganda</p>
+		</article>
+			
+
+		</aside>		
+
+		</div>
+		
+
+	</div>
+
+	<!--rodapé-->
+	<footer id="rodape">
+		<p> copyright &copy; 2019 senai-to.com </p>
+
+	</footer>
+		
+
+</body>
+
+</html>

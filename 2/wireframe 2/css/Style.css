@@ -1,0 +1,55 @@
+		*{
+				box-sizing: border-box;
+		}
+
+		body{
+			font-family: Arial;
+			background-color: Seashell;
+			margin: 0px;
+
+		}
+
+		
+		#header{
+			background-color: Seashell;
+			padding: 30px;
+			text-align: center;
+			font-size: 30px;
+		}
+
+		#body{
+			background-color: Seashell;
+			text-align: center;
+			font-size: 30px;
+		}
+
+	p{
+
+		text-align: center;
+	}
+
+		.linha{
+			display: -webkit-flex;
+			display: flex;
+			}
+
+			.coluna{
+			-webkit-flex: 1;
+			-ms-flex: 1;
+			flex: 1;
+			padding: 10px;
+			height: 300px;
+			border-style: solid 5px;
+			}
+			article{
+				margin-bottom: 100px;
+				border-style: solid 5px;
+
+			}
+
+		footer{
+			background-color: #66cdaa;
+			padding: 15px;
+			text-align: center;
+		}
+		

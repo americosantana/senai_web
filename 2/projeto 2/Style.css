@@ -1,0 +1,139 @@
+*{
+	box-sizing: border-box;
+
+}
+
+/*corpo do documento*/
+html{
+	width: 100%
+}
+
+/*corpo do documento*/
+body{
+	font-family: Arial;
+	padding: 10px;
+	background: #f1f1f1;
+	margin: 0px; /*margem da página*/
+}
+
+/*cabeçalho*/
+#cabecalho{
+	width: 100%; /*larguda do documento*/
+	padding: 40px;
+	text-align: center;
+	font-size: 30px;
+}
+
+/*menu de navegação*/
+#menu_superior{
+	
+	width: 100%;
+	overflow: hidden;
+	background-color: #333; 
+	
+}
+
+/*menu de navegação*/
+#menu_superior a{
+	
+	text-decoration: none;
+	font-family: Calibri;
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 5px;
+
+}
+
+#menu_superior a:hover{
+	
+	background-color: #ddd;
+	color: black;
+}
+
+#titulos{
+	text-align: center;
+	
+}
+
+#titulos h1{
+	font-size: 20px
+	font-family: Verdana;
+	color: tomato;
+	
+}
+
+#titulos p{
+	
+	font-size: 15px;
+	font-family: Times;
+
+}
+
+#row:after {
+	content: "";
+	display: table;
+	clear: both;
+
+}
+
+.coluna{
+	
+	border: solid 2px;
+	float: left;
+	padding: 10px;
+
+}
+.esq{
+	width: 70%;
+	}
+
+.dir{
+	width: 30%;
+	}
+
+main{
+	
+	
+}
+
+#conteudo1{
+	
+	
+}
+
+#conteudo2{
+	
+	
+}
+
+
+#rodape{
+
+	font-family: Courier;
+	font-size: 16px;
+	border: solid 2px;
+	text-align: center;
+	
+	
+}
+
+#conteudo_secundario{
+	
+	
+}
+
+
+
+#titulo_lateral{
+
+	
+}
+
+
+#divugacao{
+
+	
+}
